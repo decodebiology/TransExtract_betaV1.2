@@ -4,10 +4,14 @@
 #script v1.2
 #Scripts overflow
 #accessTransition.pl --> Transitions_extraction.pl --> run_transition.pl
-./config.sh
-export outpath
-export inpath
-export samples
+outpath=$1
+inpath=$2
+#samples=$3
+BaseQual=$4
+readDepth=$5
+
+IFS=',' read -ra samples <<< "$3"
+
 strand=("FR" "RR") 
 for i in "${samples[@]}"
 do
@@ -18,12 +22,6 @@ do
 done
 
 
-
-
-
-
-BaseQual=5 ## Your baseQuality cutoff
-readDepth=2 ## Your ReadDepth cutoff
 for i in "${samples[@]}"
 do
 VCF="$inpath/${i}_variations.vcf"
