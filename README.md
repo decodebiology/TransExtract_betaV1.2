@@ -11,7 +11,7 @@ The comments with two hashes '##' means the input from USER
 
 Scripts overflow:
 
-accessTransition.pl --> Transitions_extraction.pl --> run_config.sh --> config.sh
+accessTransition.pl --> Transitions_extraction.pl --> run_config.sh --> TransExtract.sh
 
 
 INPUT: This supports VCF file from Freebayes (https://github.com/ekg/freebayes) or Other programs.
