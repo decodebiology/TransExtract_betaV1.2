@@ -5,10 +5,14 @@ Extract Transitions from PARCLIP data. This is beta version, this could be impro
 
 Run script: 
 
-1) Unzip the TransExtract_betaV1.2.zip folder and go into the extracted folder
+1) Unzip the TransExtract_betaV1.2.zip folder and go into the extracted folder.
+
 2) Edit 'TransExtract.sh' file. The comments with two hashes '##' means the input must be provided.
+
 3) chmod a+x *.pl
+
 4) chmod a+x *.sh
+
 5) ./TransExtract.sh
 
 
