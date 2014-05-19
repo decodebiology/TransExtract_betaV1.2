@@ -3,7 +3,7 @@ TransExtract Beta version 1.2
 
 Extract Transitions from PARCLIP data. This is beta version, this could be improved by including more description about the results and also with graphical visualization.
 
-Run script: 
+Execute/Run script: 
 
 1) Unzip the TransExtract_betaV1.2.zip folder and go into the extracted folder.
 
