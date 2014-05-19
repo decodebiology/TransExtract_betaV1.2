@@ -9,7 +9,7 @@ The comments with two hashes '##' means the input from USER
 ./config.sh
 
 
-Scripts overflow:
+Scripts workflow:
 
 accessTransition.pl --> Transitions_extraction.pl --> run_config.sh --> TransExtract.sh
 
