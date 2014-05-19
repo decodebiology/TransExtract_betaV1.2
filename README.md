@@ -13,4 +13,4 @@ Scripts overflow:
 accessTransition.pl --> Transitions_extraction.pl --> run_transition.pl
 
 
-INPUT: This supports output VCF file from Freebayes or Other programs which outputs VCF.
+INPUT: This supports output VCF file from Freebayes or Other programs.
