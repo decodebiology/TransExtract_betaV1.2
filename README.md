@@ -6,7 +6,7 @@ Extract Transitions from PARCLIP data. This is beta version, this could be impro
 Run script: 
 The comments with two hashes '##' means the input from USER
 
-./config.sh
+./TransExtract.sh
 
 
 Scripts workflow:
