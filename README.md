@@ -5,12 +5,12 @@ Extract Transitions from PARCLIP data. This is beta version, this could be impro
 
 Run config script: 
 The comments with two hashes '##' means the input from USER
-./run_transition.sh
+./config.sh
 
 
 Scripts overflow:
 
-accessTransition.pl --> Transitions_extraction.pl --> run_transition.pl
+accessTransition.pl --> Transitions_extraction.pl --> config.sh
 
 
 INPUT: This supports output VCF file from Freebayes or Other programs.
