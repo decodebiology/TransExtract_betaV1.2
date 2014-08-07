@@ -10,6 +10,7 @@ samples=("SAMPLE-1" "SAMPLE-2") ## Input your sample names: VCF file should be n
 BaseQual=$3
 readDepth=$4
 AltReadDepth=$5
+#IFS=',' read -ra samples <<< "$3"
 
 strand=("FR" "RR") 
 for i in "${samples[@]}"

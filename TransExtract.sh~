@@ -5,8 +5,8 @@
 #Scripts overflow
 #accessTransition.pl --> Transitions_extraction.pl --> run_transition.pl
 
-outpath='INPUT/PATH' ## The folder where the output should be stored. Include directory path by replacing 'INPUT/PATH' with yours.
-inpath='OUTPUT/PATH' ## The folder which contains all input VCF files Include directory path by replacing 'OUTPUT/PATH' with yours.
+outpath='/home/santhilal/proj/meg3_analysis140703/chromatin_analysis/transitions/output' ## The folder where the output should be stored
+inpath='/home/santhilal/proj/meg3_analysis140703/chromatin_analysis/transitions' ## The folder which contains all input VCF files
 ### PLEASE EDIT run_config.sh to include your list of sample names ##
 
 

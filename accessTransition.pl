@@ -8,6 +8,7 @@ open(IN,$ARGV[0]);
 $FilterQual=$ARGV[2];
 $inDP=$ARGV[3];
 $strand=$ARGV[4];
+$TCdp=$ARGV[5];
 $file=<IN>;
 @line=split("\n",$file);
 
@@ -20,7 +21,7 @@ foreach $line(@line)
 		
 			if($inRef ne $inAlt)
     			{
-				if($ref eq $inRef && $alt eq $inAlt && $qual<=$FilterQual)
+				if($ref eq $inRef && $alt eq $inAlt && $qual>=$FilterQual)
 				{
 					
 					($ns,$nsVal,$dp,$dpVal)=split(/[;=]/,$info);
@@ -31,7 +32,7 @@ foreach $line(@line)
 					$refVSalt=(($alt_dpF+$alt_dpR)/($TotalDp))*100;
 					if($strand eq "FR")
 					{
-						if($alt_dpF>0 && $TotalDp>=$inDP)
+						if($TotalDp>=$inDP && $alt_dpF>=$TCdp)
 						{
 							print "$chr\t$pos\t$ref\t$alt\t$ref_dpF\t$ref_dpR\t$alt_dpF\t$alt_dpR\t$TotalDp\t$refVSalt\n";
 				
@@ -39,7 +40,7 @@ foreach $line(@line)
 					}
 					if($strand eq "RR")
 					{
-						if($alt_dpR>0 && $TotalDp>=$inDP)
+						if($TotalDp>=$inDP && $alt_dpR>=$TCdp)
 						{
 							print "$chr\t$pos\t$ref\t$alt\t$ref_dpF\t$ref_dpR\t$alt_dpF\t$alt_dpR\t$TotalDp\t$refVSalt\n";
 				
