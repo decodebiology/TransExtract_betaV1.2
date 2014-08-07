@@ -7,6 +7,7 @@ Prerequisites: (For getting output as graphs)
 --------------
 
 Installed R version 2.0 or greater
+
 Input VCF must be Version 4.0 (Output from tool Freebayes)
 
 Execute/Run script: 
