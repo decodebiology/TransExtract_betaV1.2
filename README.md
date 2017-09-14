@@ -29,7 +29,7 @@ Execute/Run script:
 Scripts workflow:
 ----------------
 
-accessTransition.pl --> Transitions_extraction.pl --> run_config.sh --> TransExtract.sh
+output from Freebayes (Input) --> accessTransition.pl --> Transitions_extraction.pl --> run_config.sh --> TransExtract.sh
 
 
 INPUT: This supports VCF file from Freebayes (https://github.com/ekg/freebayes) or Other programs.
