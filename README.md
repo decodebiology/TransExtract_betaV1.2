@@ -33,3 +33,13 @@ accessTransition.pl --> Transitions_extraction.pl --> run_config.sh --> TransExt
 
 
 INPUT: This supports VCF file from Freebayes (https://github.com/ekg/freebayes) or Other programs.
+
+
+Conclusion from the run:
+-----------------------
+
+<img src="http://kandurilab.org/bioinformatics/github/TransExtract/transExtract_conversions.png"><br>
+<b>Outcome in Publication:</b> Figure 1c from "<a href="https://www.nature.com/articles/ncomms8743"> <i>Mondal et. al, 2015</i>. MEG3 long noncoding RNA regulates the TGF-β pathway genes through formation of RNA–DNA triplex structures. <i>Nature Communications</i></a>"
+
+
+
